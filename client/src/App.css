@@ -27,7 +27,38 @@
   to { transform: rotate(360deg); }
 }
 
-
-div, button {
-  margin: 10px;
+button {
+    margin: 8px;
+    background-color: #191414;
+    color: #339900;
+    border: 2px solid #339900;
 }
+
+div {
+    margin: 10px;
+    background-color: #191414;
+    color: #339900;
+    border: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+body {
+    background-color: #339900;
+}
+
+html {
+    background-size: cover;
+    background-color: #339900;
+    margin: 1px;
+}
+
+#bdiv {
+    height: 97vh;
+    width: 95vw;
+    color: #191414;
+}
+
